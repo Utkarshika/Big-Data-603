@@ -39,6 +39,7 @@
      Source(https://bau.edu/blog/characteristics-of-big-data/)
      Souces(DATA603-Fall2022-Lecture 2-Intro2BigData)
 
+---
 
 3. *Phases of Big Data analysis (discuss each)*
    
@@ -69,6 +70,8 @@
      The outcomes can be utilized for process improvement and optimization. It may also be included into the systems as an input to improve performance.
 
      (Source: https://www.geeksforgeeks.org/big-data-analytics-life-cycle/#:~:text=Data%20Munging(Validation%20and%20Cleaning,Preparation%20for%20Modeling%20and%20Assessment))
+
+---
 
 4. *Challenges in Big Data analysis (discuss each)*
 
