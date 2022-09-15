@@ -75,15 +75,23 @@
     The challenges in Big Data analysis are as follows:
 
      1. Heterogeneity and Incompleteness
-     -
+     - Algorithms for machine analysis anticipate homogenous data and are unable to comprehend subtlety or any other kind of minute deviations.More research is needed to effectively represent, access, and analyze semi-structured data.There may still be some incompleteness and inaccuracies in the data even after data cleaning and error repair.
      2. Scale
-     -
+     - By definition, big data often refers to vast amounts of data stored on many platforms and systems. Creating a consistent and understandable big data architecture for the enormous data sets that businesses are pulling from CRM and ERP systems and other data sources is the first hurdle, according to Szybillo.
+     Making little tweaks makes it simpler to focus on insights once you have a feel of the data being gathered, he claimed. Plan an infrastructure that supports gradual adjustments to make it possible. Making significant modifications might result in new issues.
+      (Source: https://www.techtarget.com/searchdatamanagement/tip/10-big-data-challenges-and-how-to-address-them)
+
      3. Timeliness
-     -
+     - Data volume is increasing more quickly than computing capacity.Many expect that data will rise exponentially.Utilizing cloud computing is a viable alternative.Altering the storage subsystem might have an impact on all aspects of data processing (parallel file system vs. solid state drive).
+
      4. Privacy
-     -
+     - In the context of Big Data, worry over data privacy has increased.Big data may be used to infer new information based on location, time, and other data aspects.Effectively, managing privacy is a technological and a societal issue. Data breach, data brokerage, data discrimination and data storage are some of the privacy concerns in Big data.
+     (Source: https://www.talend.com/resources/big-data-privacy/)
+
      5. Human Collaboration
-     -
+     - Analytics for Big Data should ideally include both algorithmic and human analysis.A big data analysis system has to accommodate input from various human specialists as well as collaborative results exploration.
+
+     (Souces(DATA603-Fall2022-Lecture 2-Intro2BigData))
 
 
 
