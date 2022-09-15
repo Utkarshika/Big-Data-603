@@ -72,5 +72,19 @@
 
 4. *Challenges in Big Data analysis (discuss each)*
 
+    The challenges in Big Data analysis are as follows:
+
+     1. Heterogeneity and Incompleteness
+     -
+     2. Scale
+     -
+     3. Timeliness
+     -
+     4. Privacy
+     -
+     5. Human Collaboration
+     -
+
+
 
 
