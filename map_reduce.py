@@ -6,7 +6,11 @@ from mrjob.job import MRJob
 class HP_Count(MRJob):
 #creating a mapper()function that assigns the input to key -value pairs  
                     def mapper(self, _, line):
+<<<<<<< HEAD
                            # split out each word for each line and use yeild to "count" the occurances
+=======
+                        # split out each word for each line and use yeild to "count" the occurances
+>>>>>>> 7521ee2 (added comment)
                           for word in line.split():
                                    yield(word, 1)
                 
