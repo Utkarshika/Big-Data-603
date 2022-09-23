@@ -1,24 +1,27 @@
-import enchant
-d = enchant.Dict("en_US")
-from enchant.checker import SpellChecker
-chkr = SpellChecker("en_US")
-file = open('file2.txt')
-chkr.set_text(file)
-for err in chkr:
-    misspelled_words = spell.unknown(file)
-    n= misspelled_words
-    res = []
-    for sub in n:
-        res.append(sub.replace("\n", ""))
+# !pip install pyspellchecker
+# !pip install pandas
+
+import pandas as pd
+from spellchecker import SpellChecker
+
+
+spell = SpellChecker()
+# file = open('file2.txt')
+file = pd.read_csv('file2.txt', encoding='latin-1',  on_bad_lines='skip')
+
+non_english_words = spell.unknown(file)
+result = []
+for word in non_english_words:
+    result.append(word.replace("\n", ""))
 #print( str(res))
-        dic = {}
+dict_words = {}
 
-        words = str(res).split()
+words = str(result).split()
 
-        for raw_word in words:
-             word = raw_word.lower()
-             if word in dic:
-                dic[word] += 1
-             else:
-                dic[word] = 1
-                print(dic)
+for sample_words in words:
+    word = sample_words.lower()
+    if word in dict_words:
+        dict_words[word] += 1
+    else:
+        dict_words[word] = 1
+print(dict_words)
