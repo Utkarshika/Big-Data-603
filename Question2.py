@@ -13,7 +13,6 @@ non_english_words = spell.unknown(file)
 result = []
 for word in non_english_words:
     result.append(word.replace("\n", ""))
-#print( str(res))
 dict_words = {}
 
 words = str(result).split()
